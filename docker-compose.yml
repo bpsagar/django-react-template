@@ -12,7 +12,7 @@ services:
     depends_on:
       - postgres
     env_file:
-      - ./envs/postgres
+      - ./envs/postgres.env
     image: django
     ports:
       - "8000:8000"
