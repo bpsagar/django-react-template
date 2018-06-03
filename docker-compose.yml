@@ -21,7 +21,7 @@ services:
 
   postgres:
     env_file:
-      - ./envs/postgres
+      - ./envs/postgres.env
     image: postgres:10.4
     volumes:
       - postgres_data_local:/var/lib/postgresql/data
