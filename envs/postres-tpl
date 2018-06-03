@@ -1,0 +1,5 @@
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB={{ project_name }}
+POSTGRES_USER={{ project_name }}
+POSTGRES_PASSWORD={{ project_name }}
