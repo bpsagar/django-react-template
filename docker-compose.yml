@@ -13,7 +13,7 @@ services:
       - postgres
     env_file:
       - ./envs/postgres
-    image: {{ project_name }}_django
+    image: django
     ports:
       - "8000:8000"
     volumes:
