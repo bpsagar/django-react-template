@@ -19,5 +19,6 @@ cd {{ project_name }}-client
 npm run build
 
 # Run docker compose
+cd ..
 docker-compose up
 ```
