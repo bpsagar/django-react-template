@@ -14,6 +14,10 @@ Run the following commands to completely setup the project
 # Create the frontend with create react app
 npx create-react-app {{ project_name }}-client
 
+# Build the frontend assets
+cd {{ project_name }}-client
+npm run build
+
 # Run docker compose
 docker-compose up
 ```
