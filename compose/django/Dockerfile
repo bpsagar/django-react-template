@@ -1,6 +1,6 @@
 FROM python:3.6
 
-ENV PYTHONBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 # Install pip requirements
 COPY ./requirements/base.txt /requirements/base.txt
